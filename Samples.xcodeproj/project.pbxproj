@@ -13,15 +13,12 @@
 		8E9920E719224D8E00D2B911 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E9920E519224D8E00D2B911 /* InfoPlist.strings */; };
 		8E9920E919224D8E00D2B911 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9920E819224D8E00D2B911 /* main.m */; };
 		8E9920ED19224D8E00D2B911 /* SAMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9920EC19224D8E00D2B911 /* SAMAppDelegate.m */; };
-		8E9920F019224D8E00D2B911 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9920EE19224D8E00D2B911 /* Main_iPhone.storyboard */; };
-		8E9920F319224D8E00D2B911 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E9920F119224D8E00D2B911 /* Main_iPad.storyboard */; };
 		8E9920F619224D8E00D2B911 /* SAMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E9920F519224D8E00D2B911 /* SAMViewController.m */; };
 		8E9920F819224D8E00D2B911 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E9920F719224D8E00D2B911 /* Images.xcassets */; };
 		8E9920FF19224D8E00D2B911 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9920FE19224D8E00D2B911 /* XCTest.framework */; };
 		8E99210019224D8F00D2B911 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9920DC19224D8E00D2B911 /* Foundation.framework */; };
 		8E99210119224D8F00D2B911 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E9920E019224D8E00D2B911 /* UIKit.framework */; };
-		8E99210919224D8F00D2B911 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8E99210719224D8F00D2B911 /* InfoPlist.strings */; };
-		8E99210B19224D8F00D2B911 /* SamplesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E99210A19224D8F00D2B911 /* SamplesTests.m */; };
+		8E99211619224F6700D2B911 /* SAMPageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E99211519224F6700D2B911 /* SAMPageVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,16 +42,13 @@
 		8E9920EA19224D8E00D2B911 /* Samples-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Samples-Prefix.pch"; sourceTree = "<group>"; };
 		8E9920EB19224D8E00D2B911 /* SAMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMAppDelegate.h; sourceTree = "<group>"; };
 		8E9920EC19224D8E00D2B911 /* SAMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMAppDelegate.m; sourceTree = "<group>"; };
-		8E9920EF19224D8E00D2B911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		8E9920F219224D8E00D2B911 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		8E9920F419224D8E00D2B911 /* SAMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMViewController.h; sourceTree = "<group>"; };
 		8E9920F519224D8E00D2B911 /* SAMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMViewController.m; sourceTree = "<group>"; };
 		8E9920F719224D8E00D2B911 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		8E9920FD19224D8E00D2B911 /* SamplesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamplesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E9920FE19224D8E00D2B911 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		8E99210619224D8F00D2B911 /* SamplesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SamplesTests-Info.plist"; sourceTree = "<group>"; };
-		8E99210819224D8F00D2B911 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		8E99210A19224D8F00D2B911 /* SamplesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SamplesTests.m; sourceTree = "<group>"; };
+		8E99211419224F6700D2B911 /* SAMPageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SAMPageVC.h; sourceTree = "<group>"; };
+		8E99211519224F6700D2B911 /* SAMPageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SAMPageVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				8E9920E219224D8E00D2B911 /* Samples */,
-				8E99210419224D8F00D2B911 /* SamplesTests */,
 				8E9920DB19224D8E00D2B911 /* Frameworks */,
 				8E9920DA19224D8E00D2B911 /* Products */,
 			);
@@ -116,10 +109,10 @@
 			children = (
 				8E9920EB19224D8E00D2B911 /* SAMAppDelegate.h */,
 				8E9920EC19224D8E00D2B911 /* SAMAppDelegate.m */,
-				8E9920EE19224D8E00D2B911 /* Main_iPhone.storyboard */,
-				8E9920F119224D8E00D2B911 /* Main_iPad.storyboard */,
 				8E9920F419224D8E00D2B911 /* SAMViewController.h */,
 				8E9920F519224D8E00D2B911 /* SAMViewController.m */,
+				8E99211419224F6700D2B911 /* SAMPageVC.h */,
+				8E99211519224F6700D2B911 /* SAMPageVC.m */,
 				8E9920F719224D8E00D2B911 /* Images.xcassets */,
 				8E9920E319224D8E00D2B911 /* Supporting Files */,
 			);
@@ -133,24 +126,6 @@
 				8E9920E519224D8E00D2B911 /* InfoPlist.strings */,
 				8E9920E819224D8E00D2B911 /* main.m */,
 				8E9920EA19224D8E00D2B911 /* Samples-Prefix.pch */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		8E99210419224D8F00D2B911 /* SamplesTests */ = {
-			isa = PBXGroup;
-			children = (
-				8E99210A19224D8F00D2B911 /* SamplesTests.m */,
-				8E99210519224D8F00D2B911 /* Supporting Files */,
-			);
-			path = SamplesTests;
-			sourceTree = "<group>";
-		};
-		8E99210519224D8F00D2B911 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				8E99210619224D8F00D2B911 /* SamplesTests-Info.plist */,
-				8E99210719224D8F00D2B911 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -232,9 +207,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E9920F319224D8E00D2B911 /* Main_iPad.storyboard in Resources */,
 				8E9920F819224D8E00D2B911 /* Images.xcassets in Resources */,
-				8E9920F019224D8E00D2B911 /* Main_iPhone.storyboard in Resources */,
 				8E9920E719224D8E00D2B911 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -243,7 +216,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E99210919224D8F00D2B911 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E9920ED19224D8E00D2B911 /* SAMAppDelegate.m in Sources */,
+				8E99211619224F6700D2B911 /* SAMPageVC.m in Sources */,
 				8E9920F619224D8E00D2B911 /* SAMViewController.m in Sources */,
 				8E9920E919224D8E00D2B911 /* main.m in Sources */,
 			);
@@ -264,7 +237,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E99210B19224D8F00D2B911 /* SamplesTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,30 +255,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				8E9920E619224D8E00D2B911 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		8E9920EE19224D8E00D2B911 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E9920EF19224D8E00D2B911 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		8E9920F119224D8E00D2B911 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E9920F219224D8E00D2B911 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		8E99210719224D8F00D2B911 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8E99210819224D8F00D2B911 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -346,7 +294,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -379,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -394,6 +342,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Samples/Samples-Prefix.pch";
 				INFOPLIST_FILE = "Samples/Samples-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -407,6 +356,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Samples/Samples-Prefix.pch";
 				INFOPLIST_FILE = "Samples/Samples-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
